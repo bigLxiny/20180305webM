@@ -1,9 +1,10 @@
 <template>
-    <router-view/>
+  <div>商品列表</div>
 </template>
 
 <script>
 export default {
+
 }
 </script>
 

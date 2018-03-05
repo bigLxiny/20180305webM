@@ -1,9 +1,10 @@
 <template>
-    <router-view/>
+  <div>公共头部</div>
 </template>
 
 <script>
 export default {
+
 }
 </script>
 
