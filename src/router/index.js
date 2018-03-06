@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-
+// 
 import Login from '../components/account/login/Login.vue'
 import Shop from '../components/shop/Shop.vue'
 import goodsDetail from '../components/shop/goods/Detail.vue'
@@ -22,7 +22,7 @@ let orders=[
   { name: 'ordrerSite', path: 'order/site', component: ordrerSite },
 ]
 let shopcart=[
-  { name: 'Shopcart', path: 'shopcart', component: Shopcart },
+  { name: 'shopcart', path: 'shopcart', component: Shopcart },
 ]
 export default new Router({
   routes: [
